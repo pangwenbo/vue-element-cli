@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="//at.alicdn.com/t/font_1870779_h6wsms60h66.css">
+
+        <title>智慧化旅业平台</title>
+</head>
+
+<body>
+        <noscript>
+                <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript
+                        enabled. Please enable it to continue.</strong>
+        </noscript>
+        <div id="app"></div>
+        <script>
+                window.api = {}
+                window.api.domain = 'http://222.143.52.119/sys'
+                window.api.base = 'http://118.187.7.170:8080'   //外网
+        </script>
+</body>
+
+</html>
